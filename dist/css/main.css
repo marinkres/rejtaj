@@ -1,7 +1,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
 .main {
-  height: 100vh;
+  height: 120vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -25,7 +25,9 @@ header {
           transform: translateX(-50%);
   padding-top: 30px;
 }
-
+div.ml-embedded {
+  width: 100%;
+}
 header nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -126,6 +128,9 @@ header .social-icon a:hover {
 }
 
 @media (max-width: 420px) {
+  h2{
+    text-align: center;
+  }
   .main {
     background-image: none !important;
     display: block !important;
@@ -168,6 +173,9 @@ header .social-icon a:hover {
 }
 
 @media only screen and (min-width: 420px) and (max-width: 574px) {
+  h2{
+    text-align: center;
+  }
   .main {
     background-image: none !important;
     display: block !important;
@@ -210,6 +218,9 @@ header .social-icon a:hover {
 }
 
 @media (min-width: 575px) and (max-width: 767px) {
+  h2{
+    text-align: center;
+  }
   .main {
     background-image: none !important;
     display: block !important;
@@ -252,6 +263,9 @@ header .social-icon a:hover {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  h2{
+    text-align: center;
+  }
   .main {
     background-image: none !important;
   }
@@ -287,6 +301,7 @@ header .social-icon a:hover {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
+  
   .form-group button {
     right: 0 !important;
     height: 60px;
